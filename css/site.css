@@ -1,0 +1,55 @@
+body{
+    
+    background-color:#f19132;
+    
+}
+.row{
+  
+  padding: 10px;
+  margin: 10px;
+}
+
+#info{
+    color: #f19132;
+}
+  
+#content{
+   background-color:#7a5230;
+   color: #f19132
+}
+#hellur{
+    background-color:#7a5230;
+    
+}
+
+#about{
+    background-color: #7a5230;
+    color: #f19132
+}
+
+#location{
+    background-color:#7a5230;
+    color:#f19132
+}
+
+#index{
+    background-color:#7a5230;
+    color: #f19132
+}
+
+#links{
+    color: #f19132;
+}
+
+#signup{
+    background-color:#7a5230;
+   color: #f19132;
+}
+
+#button{
+    color: black;
+   background-color: #f19132;
+   border: 1px solid black;
+   
+}
+
