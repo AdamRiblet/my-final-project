@@ -79,7 +79,7 @@
             <div class="col-md-12">
 
                 <h1>Please join our email list</h1>
-                <form id="email_form" class="form" action="join.html" method="get">
+                <form id="email_form" class="form" action="https://formspree.io/adamriblet@mailinator.com" method="post">
 
                     <div class="form-group">
                         <label for="email_1">Email Address:</label>
@@ -106,7 +106,16 @@
                     <div class="form-group">
                         <label for="city">City:</label>
                         <input type="text" class="form-control" name="city">
+                        
                     </div>
+                    
+                    <div class="form-group">
+                        
+                        <input type="hidden" name="_subject" value="New Sales Order">
+                        <input type="hidden" name="_next" 
+                        value="http://adamriblet.github.io/my-final-project/thanks.html">
+                        </div>
+                    
 
 
                     <button type="submit" id="join" class="btn btn-primary">Submit</button>
